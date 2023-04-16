@@ -1,6 +1,7 @@
 FROM archlinux
 
 ENV SUDO_USER_NAME linweiyuan
+ENV VERSION 23.0416.1
 ENV MIRROR_URL 'https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch'
 
 RUN echo "Server = ${MIRROR_URL}" > /etc/pacman.d/mirrorlist \
